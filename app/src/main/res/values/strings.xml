@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ReMorning</string>
+    <string name="app_name_min" translatable="false">Remorning</string>
+    <string name="title_activity_main" translatable="false">@string/app_name_min</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="serverConnectionLost">Server connection lost</string>
+
+    <string name="configurations">Settings</string>
+    <string name="signout">Sign out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="signoutConfirm">Are you sure you want to sign out?</string>
+    <string name="options">Options</string>
+    <string name="title_activity_new_task" translatable="false">NewTaskActivity</string>
+    <string name="newtask">New Task</string>
+    <string name="whatTask">What do you have to do?</string>
+    <string name="whenTask">When?</string>
+    <string name="newtaskhint0">buy shoes</string>
+    <string name="newtaskhint1" translatable="false"></string>
+    <string name="newtaskhint2" translatable="false"></string>
+    <string name="newtaskhint3" translatable="false"></string>
+    <string name="newtaskhint4" translatable="false"></string>
+    <string name="title_activity_config" translatable="false">ConfigActivity</string>
+    <string name="notifications">Notifications</string>
+    <string name="notificationsExpl">Show me notifications of tasks</string>
+    <string name="newTasks">Today tasks</string>
+    <string name="newTasksExpl">Refresh Tasks</string>
+    <string name="resetTasks">Reset Tasks</string>
+    <string name="resetTasksExpl">Set this hour to reset tasks and store the delayed tasks</string>
+    <string name="todayTasks">Today Tasks</string>
+    <string name="oldTasks">Old Tasks</string>
+    <string name="relaxBoy">Relax boy, you have more... nothing to do!</string>
+    <string name="loginFailed">Google Login failed</string>
+    <string name="close">Close</string>
+    <string name="closeMsg">Are you sure you want to close Remorning?</string>
+    <string name="errorToSaveTask">There was an error saving te task, try again</string>
+    <string name="anErrorOcurred">An error ocurred, try again</string>
+    <string name="newTaskCancelled">New task cancelled</string>
+    <string name="done">Done</string>
+    <string name="lists">Lists</string>
+</resources>

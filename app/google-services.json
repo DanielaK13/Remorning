@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970459456070",
+    "firebase_url": "https://remorning-dk.firebaseio.com",
+    "project_id": "remorning-dk",
+    "storage_bucket": "remorning-dk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970459456070:android:19eb2c3b65657738",
+        "android_client_info": {
+          "package_name": "com.user.remorning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970459456070-8linkjcrk9pa1kfltggphhj0tj0kvtal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.user.remorning",
+            "certificate_hash": "2fca74e8ece4cb8d4e7a8e73e67e235c84a11fe2"
+          }
+        },
+        {
+          "client_id": "970459456070-374nbm7qbgq3lcahffv6mtu1626otjhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSXlvAKZOr300zBGM3Je0aS9Um6D1uhO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970459456070-374nbm7qbgq3lcahffv6mtu1626otjhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
