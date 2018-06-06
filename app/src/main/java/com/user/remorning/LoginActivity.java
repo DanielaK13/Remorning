@@ -114,10 +114,15 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         try{
             if (requestCode == RC_SIGN_IN) {
                 GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-                if (result.isSuccess()) {
+                int statusCode = result.getStatus().getStatusCode();
+                if (result.isSuccess() && result.getSignInAccount() != null) {
                     GoogleSignInAccount account = result.getSignInAccount();
                     firebaseAuthWithGoogle(account);
-                } else {
+                }
+                if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
+                    Auth.GoogleSignInApi.signOut(mGoogleApiClient);
+                }
+                else {
                     String rm = result.getStatus().getStatusMessage();
 
                     Toast.makeText(this, getString(R.string.loginFailed), Toast.LENGTH_SHORT).show();
