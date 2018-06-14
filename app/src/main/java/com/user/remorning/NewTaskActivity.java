@@ -48,7 +48,11 @@ public class NewTaskActivity extends AppCompatActivity{
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
                 Calendar calendar = Calendar.getInstance();
+
+                //calendarView.setMinDate(calendar.getTimeInMillis());
                 calendar.set(year, month, dayOfMonth);
+                //calendar.add(Calendar.YEAR, 4);
+                //calendarView.setMaxDate(calendar.getTimeInMillis());
                 data = calendar.getTime();
             }
         });
@@ -75,8 +79,6 @@ public class NewTaskActivity extends AppCompatActivity{
                 }
             }
         });
-
-        //disableFab();
 
     }
 
